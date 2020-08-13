@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Range Upgrade
+  m_Shader: {fileID: 4800000, guid: 9e6fd2287ae856941880fe7a4dd959e1, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _NORMALMAP _UWTHROUGHVIEW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: f0a73fb422601e843826b5508ce5f628, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 1}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeTex:
+        m_Texture: {fileID: 2800000, guid: 4b7fe2ba8f82b2e49b4be7329b78742a, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4b7fe2ba8f82b2e49b4be7329b78742a, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 86de391158d76324fbf7a2998b9d9981, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _ShoreTex:
+        m_Texture: {fileID: 28655221760809864, guid: 4795b834010d469459b6a4e421e7993f,
+          type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 86de391158d76324fbf7a2998b9d9981, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _ColorMask: 2
+    - _CullMode: 0
+    - _Cutoff: 1
+    - _DetailNormalMapScale: 1
+    - _Displace: 100
+    - _Distort: 0.6
+    - _DistortStrength: 0.5
+    - _DistortTimeFactor: 0.315
+    - _DstBlend: 10
+    - _EdgeFade: 0.5
+    - _FresnelScale: 2.85
+    - _GerstnerIntensity: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _IntersectPower: 3
+    - _IntersectionDamper: 1.46
+    - _IntersectionMax: 1.53
+    - _InvFade: 1
+    - _Metallic: 0
+    - _Mode: 2
+    - _OcclusionStrength: 1
+    - _Offset: 0
+    - _Parallax: 0.02
+    - _ReadMask: 255
+    - _Rim: 1.73
+    - _RimEffect: 1
+    - _RimStrength: 1.93
+    - _Shininess: 80
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed: 4.03
+    - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 0
+    - _StencilFail: 2
+    - _StencilOp: 2
+    - _StencilZFail: 2
+    - _Strength: 1.22
+    - _Tile: 2.93
+    - _UVSec: 0
+    - _UWThroughView: 1
+    - _WriteMask: 255
+    - _ZTest: 5
+    - _ZWrite: 0
+    m_Colors:
+    - _AnimationDirection: {r: 0.14, g: 1, b: 1, a: 0}
+    - _AnimationTiling: {r: -0.26, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0.48235294}
+    - _BumpDirection: {r: 0, g: 1, b: 0, a: 0}
+    - _BumpTiling: {r: -0.35, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.4, g: 0.57254905, b: 0.4, a: 0.08235294}
+    - _DistortParams: {r: 0.54, g: -2.04, b: 3.2, a: -4.48}
+    - _Edge: {r: 0, g: 0, b: 0, a: 0}
+    - _EdgeFadeParam: {r: 2.37, g: 1.29, b: 5.04, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Foam: {r: 70.88, g: 6.57, b: 7.29, a: 0}
+    - _GAmplitude: {r: 0, g: 0, b: 0, a: 0}
+    - _GDirectionAB: {r: 0, g: 0, b: 0, a: 0}
+    - _GDirectionCD: {r: 0, g: 0, b: 0, a: 0}
+    - _GFrequency: {r: 0, g: 0, b: 0, a: 0}
+    - _GSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _GSteepness: {r: 0, g: 0, b: 0, a: 0}
+    - _InvFadeParemeter: {r: 1.15, g: 1.22, b: 3.72, a: 1}
+    - _Properties: {r: 1.85, g: -2.6, b: 13.62, a: -2.37}
+    - _ReflectionColor: {r: 0, g: 0, b: 0, a: 0.5}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 0.476, g: 0.657, b: 0.322, a: 0.6}
+    - _TintColor: {r: 0.55460125, g: 0.9716981, b: 0.5705558, a: 0.07058824}
+    - _WorldLightDir: {r: 0.27, g: -0.1, b: 0, a: 0}

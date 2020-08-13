@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f551deedb519884fa19ae1c11465077, type: 3}
+  m_Name: L5 6.Q 1x4 0s
+  m_EditorClassIdentifier: 
+  _subWaves:
+  - _enemy: {fileID: 3623884885599960578, guid: 9d6aee239bc0b2041bfa2e8d55e391ea,
+      type: 3}
+    _count: 4
+  _rate: 0

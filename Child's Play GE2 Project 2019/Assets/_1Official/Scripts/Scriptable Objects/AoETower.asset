@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d8f540af89d640b6e1909bcd02b10, type: 3}
+  m_Name: AoETower
+  m_EditorClassIdentifier: 
+  towerType: 0
+  description: Missile Tower
+  towerLevel: 1
+  range: 20
+  bulletPerSecond: 0.5
+  innerRadius: 0
+  projectilePrefab: {fileID: 6888162193381485623, guid: bf6d70a1f56422a4c8fc4ce96ccad7d5,
+    type: 3}
+  TowerLevelsArray:
+  - name: Level 1
+    range: 10
+    bulletPerSecond: 0.5
+    projectilePrefab: {fileID: 6888162193381485623, guid: bf6d70a1f56422a4c8fc4ce96ccad7d5,
+      type: 3}
+  - name: Level 2
+    range: 14
+    bulletPerSecond: 0.4
+    projectilePrefab: {fileID: 3410893452036375660, guid: e1988aad21b9bf6488565a0cad5ad96f,
+      type: 3}
+  - name: Level 3
+    range: 20
+    bulletPerSecond: 0.3
+    projectilePrefab: {fileID: 6401518406111318011, guid: 6ae02e416c06b8545a4c6c457e77796b,
+      type: 3}

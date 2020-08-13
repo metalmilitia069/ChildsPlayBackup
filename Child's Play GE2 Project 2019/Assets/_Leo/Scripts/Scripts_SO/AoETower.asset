@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d8f540af89d640b6e1909bcd02b10, type: 3}
+  m_Name: AoETower
+  m_EditorClassIdentifier: 
+  description: Missile Tower
+  range: 8
+  rateOfFire: 0.25
+  innerRadius: 2
+  projectilePrefab: {fileID: 1534259960146438712, guid: 60284d58343fb1e40b8d7702d85c55dd,
+    type: 3}

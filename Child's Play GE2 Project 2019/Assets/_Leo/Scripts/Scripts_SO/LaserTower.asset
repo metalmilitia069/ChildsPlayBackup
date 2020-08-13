@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d8f540af89d640b6e1909bcd02b10, type: 3}
+  m_Name: LaserTower
+  m_EditorClassIdentifier: 
+  towerType: 2
+  description: Laser Beamer Tower
+  range: 20
+  bulletPerSecond: 0
+  innerRadius: 0
+  projectilePrefab: {fileID: 6419956677275362294, guid: 3f8809e9b9490e54c8d106338080a53c,
+    type: 3}

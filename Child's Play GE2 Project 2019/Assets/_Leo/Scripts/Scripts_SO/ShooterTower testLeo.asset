@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d8f540af89d640b6e1909bcd02b10, type: 3}
+  m_Name: ShooterTower testLeo
+  m_EditorClassIdentifier: 
+  description: Standard Shooter Tower
+  range: 20
+  rateOfFire: 14
+  innerRadius: 0
+  projectilePrefab: {fileID: 5692110357541016578, guid: 3316f1499c5338e42bab3cfb6b76a2ae,
+    type: 3}

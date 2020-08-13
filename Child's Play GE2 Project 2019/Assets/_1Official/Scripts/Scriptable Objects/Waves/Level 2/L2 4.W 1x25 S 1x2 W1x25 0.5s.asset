@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f551deedb519884fa19ae1c11465077, type: 3}
+  m_Name: L2 4.W 1x25 S 1x2 W1x25 0.5s
+  m_EditorClassIdentifier: 
+  _subWaves:
+  - _enemy: {fileID: 5740055950189144267, guid: d4bb47c0ccbd79e4f851668533353446,
+      type: 3}
+    _count: 25
+  - _enemy: {fileID: 2557512320319996496, guid: 46673439733e2cd4096625dc7921700b,
+      type: 3}
+    _count: 2
+  - _enemy: {fileID: 5740055950189144267, guid: d4bb47c0ccbd79e4f851668533353446,
+      type: 3}
+    _count: 25
+  _rate: 0.5
